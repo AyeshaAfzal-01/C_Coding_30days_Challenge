@@ -11,7 +11,7 @@ This course is organized by C_Coding_30days_Challenge.
 int main() {
 
     printf("This is Coding in \"C Language\" 30 days challenge.\n");
-    printf("This course is organized by C_Coding_30days_Challenge.");
+    printf("This Challenge is organized by C_Coding_30days_Challenge.");
     
     return 0;
 }
