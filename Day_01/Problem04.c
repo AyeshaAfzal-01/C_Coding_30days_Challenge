@@ -5,9 +5,10 @@ Write a program to display the following pattern.
 
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     // printing pattern
     printf(" ______                                                ______ \n");
     printf("|______|  >>--------------------------------------<<  |______|\n\n");

@@ -1,15 +1,17 @@
 /*
+
 Problem 5:
 Write a program that displays the following pattern on the screen that prints hello on screen
 
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-// printin a patttern that desplay HELLO on screen
+int main()
+{
+    // printin a patttern that desplay HELLO on screen
 
-printf("\n\n|H|         |H|    |E||E||E||E|   |L|            |L|            |O||O||O||O||O|\n\n");
+    printf("\n\n|H|         |H|    |E||E||E||E|   |L|            |L|            |O||O||O||O||O|\n\n");
     printf("|H|         |H|    |E|            |L|            |L|            |O|         |O|\n\n");
     printf("|H|         |H|    |E|            |L|            |L|            |O|         |O|\n\n");
     printf("|H|         |H|    |E|            |L|            |L|            |O|         |O|\n\n");
