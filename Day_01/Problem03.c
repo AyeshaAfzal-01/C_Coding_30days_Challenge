@@ -1,11 +1,14 @@
 /*
+
 Problem 3:
 Write a program that shows letter E on the display.
+
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     printf(" ____\n|____\n|____");
 
