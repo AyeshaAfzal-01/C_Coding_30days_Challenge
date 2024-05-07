@@ -1,6 +1,8 @@
 /*
+
 Problem 4:
 Write a program to display the following pattern.
+
 */
 
 #include<stdio.h>
