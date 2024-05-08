@@ -9,6 +9,7 @@ Write a program that prints the following pattern.
 * * *                                * *
 * * * *                              *
 * * * * *                    
+
 */
 
 #include <stdio.h>
