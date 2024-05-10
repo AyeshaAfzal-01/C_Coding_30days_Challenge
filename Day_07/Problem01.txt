@@ -1,0 +1,47 @@
+/*
+
+Problem 1:
+Predict the output of following program without compiling 
+and executing the code.
+# include <stdio.h>
+int main()
+{
+int i = 10;
+for( ; i ; i>>=2)
+{
+printf("%d\n",i);
+}
+}
+
+*/
+
+Pridicting the output of the program of problem 1:
+
+The output of this program wil be:
+10
+2
+
+The reason for this is that the variable 'i' is intialized with 10 and for-loop condition is 'i', that means as long as the 'i' value is non-zero 
+condition is true and loop is executed in this case, but when the 'i' value changes to zero that means condition is false and the loop will 
+terminate in this case.
+
+int i= 10;
+
+for ( ; i; i>>=2 )  loop is initialized by 10 and will continue as long as 'i' is non-zero.
+
+i>>=2  this is a compound assignment operator that includes right shift + assignment operator, it will right shift the bits by 2 and assign this
+value to i.
+i>>=2 ---->    i = i>>2       right shifting i by 2 and then storing the obtained value again in 'i' in each iteration.
+
+during first iteration loop is initialized by i=10, so it will print 10 and then in second iteration , it will right shift the bits of i 
+by 2 and then store it in 'i'. 
+i=10     10>>2      0000 1001 ----> by right shift ---> 0000 0010  = 2      --->      i =2
+during third iteration
+i=2      2>>2       0000 0010 ----> by right shift ---> 0000 0000  = 0      --->      i =0
+now, i=0 in third iteration, so the loop will terminate in this case.
+
+In summary, In first iteration loop will print 10 as 'i' is initialized by 10, and in second iteration it will right shift 10 by 2 and then assign this value
+to i leading to i=2 so it will print 2 dring second iteration. during third iteration by right shifting i=2 by 2, i value changes to 0, so in this 
+case, condition is false and loop will terminate. So, final output will be
+10
+2
