@@ -1,7 +1,7 @@
 /*
 
 Problem 1:
-Write a program that calculates the sum and average of all 
+Write a program that calculates the sum and average of all
 numbers entered by user(Using arrays).
 Sample Run:
 Enter the number of values : 5
@@ -11,7 +11,7 @@ Average : 3
 
 */
 
-// A program that calculates the sum and average of the numbers entered by the user 
+// A program that calculates the sum and average of the numbers entered by the user
 
 #include <stdio.h>
 
@@ -23,7 +23,7 @@ int main()
     printf("Enter the number of values: ");
     scanf("%d", &values);
 
-     int arr[values];
+    int arr[values];
 
     printf("Enter %d numbers: ", values);
 
